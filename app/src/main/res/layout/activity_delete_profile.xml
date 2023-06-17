@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FECE2F"
+    tools:context=".DeleteProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:id="@+id/email">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_Delete_user_head"
+                android:layout_marginTop="38dp"
+                android:text="You can delete your profile now.Please enter
+                your password and verify before continuing"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#EA0F0A"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_delete_user_pwd"
+                android:layout_below="@+id/textView_Delete_user_head"
+                android:text="Password"
+                android:layout_marginTop="58dp"
+                android:padding="6dp"
+                android:textColor="#555555"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_delete_user_pwd"
+                android:layout_below="@+id/textView_delete_user_pwd"
+                android:background="#88F1EEEE"
+                android:hint="Enter Your Password"
+                android:textColorHint="#656465"
+                android:padding="6dp"
+                android:textColor="#555555"
+                android:textSize="16sp"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_authenticate_user"
+                android:layout_below="@+id/text_delete_user_pwd"
+                android:text="Authenticate"
+                android:textColor="@color/black"
+                android:background="#FECE2F"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="78dp"/>
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/progressbar"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:layout_below="@+id/email">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_delete_user_authenticated"
+                android:background="#88F1EEEE"
+                android:layout_marginTop="30dp"
+                android:text="Your Profile is not authenticated/verified yet."
+                android:padding="6dp"
+                android:textColor="#555555"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_delete_user"
+                android:layout_below="@+id/text_delete_user_authenticated"
+                android:text="Delete User"
+                android:background="#FECE2F"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="78dp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
