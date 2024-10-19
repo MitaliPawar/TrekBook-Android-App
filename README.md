@@ -1,2 +1,1 @@
-# TrekkingAndTourism
-new Repository about Trekking And Tourism (Application)Project
+The TrekBook  Android App is designed to provide users with a comprehensive platform to explore, plan, and book trekking adventures. The app offers a seamless experience from discovering treks, booking transportation and accommodations, to tracking trek progress, all in one place. Key features include user authentication, a trek library, real-time tracking, and integrated payment systems.
