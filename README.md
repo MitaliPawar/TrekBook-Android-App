@@ -1,6 +1,6 @@
-Trekking and Tourism Android App
+TrekBook Android App
 Project Overview-
-The Trekking and Tourism Android App is designed to provide users with a comprehensive platform to explore, plan, and book trekking adventures. 
+The TrekBook App is designed to provide users with a comprehensive platform to explore, plan, and book trekking adventures. 
 The app offers a seamless experience from discovering treks, booking transportation and accommodations, to tracking trek progress, all in one place. 
 Key features include user authentication, a trek library, real-time tracking, and integrated payment systems.
 
